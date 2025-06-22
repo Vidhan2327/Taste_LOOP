@@ -1,8 +1,7 @@
 const Menu = [
-  // 🥣 Breakfast
   {
     id: 1,
-    image: "images/corn.jpg",
+    image: process.env.PUBLIC_URL + "/images/corn.jpg",
     name: "corn",
     category: "Breakfast",
     price: "10₹",
@@ -11,111 +10,93 @@ const Menu = [
   },
   {
     id: 2,
-    image: "images/paubhaji.jpg",
+    image: process.env.PUBLIC_URL + "/images/paubhaji.jpg",
     name: "Pav Bhaji",
     category: "Breakfast",
     price: "50₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
   {
     id: 3,
-    image: "images/puri.jpg",
+    image: process.env.PUBLIC_URL + "/images/puri.jpg",
     name: "Puri Bhaji",
     category: "Breakfast",
     price: "50₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
-
-  // 🍛 Lunch
   {
     id: 4,
-    image: "../images/chola.jpg",
+    image: process.env.PUBLIC_URL + "/images/chola.jpg",
     name: "chola",
     category: "Lunch",
     price: "60₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
   {
     id: 5,
-    image: "../images/rajmarice.jpg",
+    image: process.env.PUBLIC_URL + "/images/rajmarice.jpg",
     name: "Rajma Rice",
     category: "Lunch",
     price: "80₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
-
-  // ☕ Evening
- 
   {
     id: 6,
-    image: "images/maggi.jpg",
+    image: process.env.PUBLIC_URL + "/images/maggi.jpg",
     name: "maggi",
     category: "Evening",
     price: "20₹",
-    description:
-      "I love Maggi really. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto.",
+    description: "Lorem ipsum...",
   },
   {
     id: 7,
-    image: "../images/pizza.jpg",
+    image: process.env.PUBLIC_URL + "/images/pizza.jpg",
     name: "pizza",
     category: "Evening",
     price: "100₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
   {
     id: 8,
-    image: "../images/samosa.jpg",
+    image: process.env.PUBLIC_URL + "/images/samosa.jpg",
     name: "samosa",
     category: "Evening",
     price: "20₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
   {
     id: 9,
-    image: "/images/momo.jpg",
+    image: process.env.PUBLIC_URL + "/images/momo.jpg",
     name: "Momos",
     category: "Evening",
     price: "60₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
-
-  // 🍽️ Dinner
-   {
+  {
     id: 10,
-    image: "images/vegthali.jpg",
+    image: process.env.PUBLIC_URL + "/images/vegthali.jpg",
     name: "Veg Thali",
     category: "Dinner",
     price: "200₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
   {
     id: 11,
-    image: "../images/nonvegthali.jpg",
+    image: process.env.PUBLIC_URL + "/images/nonvegthali.jpg",
     name: "Non-Veg Thali",
     category: "Dinner",
     price: "250₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
   {
     id: 12,
-    image: "../images/sweet.jpg",
+    image: process.env.PUBLIC_URL + "/images/sweet.jpg",
     name: "Sweets",
     category: "Dinner",
     price: "100₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Lorem ipsum...",
   },
-  
 ];
 
 export default Menu;
+
