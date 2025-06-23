@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Taste_LOOP/static/css/main.63ca80ca.css",
-    "main.js": "/Taste_LOOP/static/js/main.901206ac.js",
+    "main.js": "/Taste_LOOP/static/js/main.d2c083b8.js",
     "index.html": "/Taste_LOOP/index.html",
     "main.63ca80ca.css.map": "/Taste_LOOP/static/css/main.63ca80ca.css.map",
-    "main.901206ac.js.map": "/Taste_LOOP/static/js/main.901206ac.js.map"
+    "main.d2c083b8.js.map": "/Taste_LOOP/static/js/main.d2c083b8.js.map"
   },
   "entrypoints": [
     "static/css/main.63ca80ca.css",
-    "static/js/main.901206ac.js"
+    "static/js/main.d2c083b8.js"
   ]
 }
