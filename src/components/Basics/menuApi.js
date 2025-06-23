@@ -2,11 +2,10 @@ const Menu = [
   {
     id: 1,
     image: process.env.PUBLIC_URL + "/images/corn.jpg",
-    name: "corn",
+    name: "Corn",
     category: "Breakfast",
     price: "10₹",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in.",
+    description: "Steamed sweet corn tossed with butter and mild spices.",
   },
   {
     id: 2,
@@ -14,7 +13,7 @@ const Menu = [
     name: "Pav Bhaji",
     category: "Breakfast",
     price: "50₹",
-    description: "Lorem ipsum...",
+    description: "Spicy mashed vegetables served with butter-toasted pav.",
   },
   {
     id: 3,
@@ -22,15 +21,15 @@ const Menu = [
     name: "Puri Bhaji",
     category: "Breakfast",
     price: "50₹",
-    description: "Lorem ipsum...",
+    description: "Fluffy puris served with flavorful potato curry.",
   },
   {
     id: 4,
     image: process.env.PUBLIC_URL + "/images/chola.jpg",
-    name: "chola",
+    name: "Chola",
     category: "Lunch",
     price: "60₹",
-    description: "Lorem ipsum...",
+    description: "Punjabi-style chickpeas cooked in rich masala gravy.",
   },
   {
     id: 5,
@@ -38,31 +37,31 @@ const Menu = [
     name: "Rajma Rice",
     category: "Lunch",
     price: "80₹",
-    description: "Lorem ipsum...",
+    description: "Red kidney beans in a tangy tomato gravy with rice.",
   },
   {
     id: 6,
     image: process.env.PUBLIC_URL + "/images/maggi.jpg",
-    name: "maggi",
+    name: "Maggi",
     category: "Evening",
     price: "20₹",
-    description: "Lorem ipsum...",
+    description: "Instant noodles cooked with veggies and Indian spices.",
   },
   {
     id: 7,
     image: process.env.PUBLIC_URL + "/images/pizza.jpg",
-    name: "pizza",
+    name: "Pizza",
     category: "Evening",
     price: "100₹",
-    description: "Lorem ipsum...",
+    description: "Crispy base loaded with cheese and fresh toppings.",
   },
   {
     id: 8,
     image: process.env.PUBLIC_URL + "/images/samosa.jpg",
-    name: "samosa",
+    name: "Samosa",
     category: "Evening",
     price: "20₹",
-    description: "Lorem ipsum...",
+    description: "Deep-fried pastry filled with spicy mashed potatoes.",
   },
   {
     id: 9,
@@ -70,7 +69,7 @@ const Menu = [
     name: "Momos",
     category: "Evening",
     price: "60₹",
-    description: "Lorem ipsum...",
+    description: "Soft dumplings stuffed with spiced veggies or meat.",
   },
   {
     id: 10,
@@ -78,7 +77,7 @@ const Menu = [
     name: "Veg Thali",
     category: "Dinner",
     price: "200₹",
-    description: "Lorem ipsum...",
+    description: "Complete Indian vegetarian meal with multiple dishes.",
   },
   {
     id: 11,
@@ -86,7 +85,7 @@ const Menu = [
     name: "Non-Veg Thali",
     category: "Dinner",
     price: "250₹",
-    description: "Lorem ipsum...",
+    description: "Hearty thali with chicken curry, rice, roti, and sides.",
   },
   {
     id: 12,
@@ -94,9 +93,10 @@ const Menu = [
     name: "Sweets",
     category: "Dinner",
     price: "100₹",
-    description: "Lorem ipsum...",
+    description: "Assorted Indian sweets to end your meal on a high note.",
   },
 ];
 
 export default Menu;
+
 
